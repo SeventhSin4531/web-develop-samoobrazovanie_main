@@ -1,9 +1,14 @@
 span{
     font-style: italic;
-    /* color: rebeccapurple;
-    background-color: rgba(196, 152, 70, 0.658); */
 }
 
-/* ol{
-    list-style:upper-roman;
-} */
+ .list-container{
+    display: inline-block;
+    border-style: solid;
+    border-width: 0.5px;
+    padding-right: 15px;
+ }
+ .list-container>p{
+    text-align: center;
+    font-weight: bold;
+ }
