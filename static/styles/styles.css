@@ -12,3 +12,9 @@ span{
     text-align: center;
     font-weight: bold;
  }
+/*  img{
+    float: right;
+ } */
+  .img-container{
+    float: right;
+  }
