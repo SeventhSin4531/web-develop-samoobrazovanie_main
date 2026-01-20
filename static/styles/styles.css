@@ -2,6 +2,8 @@ span{
     font-style: italic;
 }
 
+/* Контент */
+
  .list-container{
     display: inline-block;
     border-style: solid;
@@ -29,4 +31,11 @@ span{
   }
   .html5-logo{
     max-width: 70px;
+  }
+
+  /* Верхняя навигационная панель */
+
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
   }
