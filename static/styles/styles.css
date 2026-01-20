@@ -17,4 +17,16 @@ span{
  } */
   .img-container{
     float: right;
+    border-style: solid;
+    border-width: 0.5px;
+    padding: 7px;
+    margin-left: 10px;
+  }
+  .img-container>div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .html5-logo{
+    max-width: 70px;
   }
