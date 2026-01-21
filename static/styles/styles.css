@@ -70,14 +70,32 @@ span{
   /* GOVNO */
 
 
+  .text-page{
+    padding-left: 15px;
+  }
   .page{
     display: flex;
     justify-content: center;
   }
   .header{
     width: 15%;
-    background-color: aqua;
+    background-color: rgba(202, 204, 204, 0.753);
   }
   .section{
     width: 83%;
+  }
+  .header>ol{
+    list-style: none;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    margin: 10px;
+    padding: 0;
+    padding-bottom: 5px;
+  }
+  .header>div{
+    width: 100%;
+    text-align: center;
+  }
+  .header>div>img{
+    width: 45%;
   }
