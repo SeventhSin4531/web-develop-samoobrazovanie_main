@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 span{
     font-style: italic;
 }
@@ -38,6 +41,7 @@ span{
   .nav-container{
     display: flex;
     justify-content: space-between;
+    background-color: rgba(113, 198, 255, 0.623);
   }
   .nav-container>nav>ul{
     display: flex;
@@ -51,4 +55,12 @@ span{
     padding: 5px;
     border-style: solid;
     border-width: 0.5px;
+  }
+
+
+
+  @media (max-width: 761px){
+    .nav-container{
+      flex-direction: column;
+    }
   }
