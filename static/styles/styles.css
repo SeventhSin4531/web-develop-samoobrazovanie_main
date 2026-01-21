@@ -64,3 +64,20 @@ span{
       flex-direction: column;
     }
   }
+
+
+
+  /* GOVNO */
+
+
+  .page{
+    display: flex;
+    justify-content: center;
+  }
+  .header{
+    width: 15%;
+    background-color: aqua;
+  }
+  .section{
+    width: 83%;
+  }
